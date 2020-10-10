@@ -107,7 +107,7 @@ Here,
  - `bins:` Number of validation bins.
  - `len_incr:` width of each validation window.
 
-
+**Update**: All the datasets used in the main paper **as well as the appendix** can be downloaded via this [link](https://www.dropbox.com/s/99ehe9hr9g09lck/FinalDatasets.zip?dl=0)
 
 For any clarification, comments, or suggestions please contact [Satwik](https://satwikb.com/) or [Kabir](https://github.com/kabirahuja2431).
 
