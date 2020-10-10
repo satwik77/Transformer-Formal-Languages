@@ -1,7 +1,7 @@
 <h2 align="center">
   Transformer-Formal-Languages
 </h2>
-<h4 align="center"> On Ability and Limitations of Transformers to Recognize Formal Languages </h4>
+<h4 align="center"> On the Ability and Limitations of Transformers to Recognize Formal Languages </h4>
 
 <p align="center">
   <a href="https://2020.emnlp.org/"><img src="https://img.shields.io/badge/EMNLP%20-2020-blue"></a>
