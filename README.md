@@ -33,7 +33,7 @@ Perhaps surprisingly, in contrast to LSTMs, Transformers do well only on a subse
 
 #### Setup
 
-First create the required directories by running setup.sh
+First create the required directories and extract the dataset by running setup.sh
 ```shell
 chmod a+x setup.sh
 ./setup.sh
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 We provide all the datasets that we mention in the paper which are:
 - `Shuffle-2`
 - `TernaryBoolean`
-- `Counter-3:`  $a^nb^nc^n​$
+- `Counter-3:`  $a^nb^nc^n$
 - `Parity`
 - `(aa)*`
 - `(abab)*`
