@@ -17,16 +17,12 @@ Transformers have supplanted recurrent models in a large number of NLP tasks. Ho
 <h2 align="center">
   <img align="center"  src="./images/hierarchyz.png" alt="..." width="300">
 </h2>
-Recent work has demonstrated close connections between LSTMs and counter automata. In our work, we seek to understand the capabilities of Transformers to model languages for which the abilities of LSTMs are well understood.
-
-In the paper, we first show that Transformers are expressive enough to recognize a subclass of counter languages, including well-studied languages such as $n$-ary Boolean Expressions, Dyck-1, and its generalizations (Section 4). In experiments, we find that Transformers do well on this subclass, and their learned mechanism strongly correlates with our construction (Section 6).
+Recent work has demonstrated close connections between LSTMs and counter automata. In our work, we seek to understand the capabilities of Transformers to model languages for which the abilities of LSTMs are well understood. In the paper, we first show that Transformers are expressive enough to recognize a subclass of counter languages, including well-studied languages such as n-ary Boolean Expressions, Dyck-1, and its generalizations (Section 4). In experiments, we find that Transformers do well on this subclass, and their learned mechanism strongly correlates with our construction (Section 6).
 
 <h2 align="center">
   <img align="center"  src="./images/counter_plot.png" alt="..." width="300">
 </h2>
-Perhaps surprisingly, in contrast to LSTMs, Transformers do well only on a subset of regular languages with degrading performance as we make languages more complex according to a well-known measure of complexity (Section 7).  Our results indicate that, in contrast to LSTMs, Transformers achieve limited performance on languages that involve modeling periodicity, modular counting, and even simpler star-free variants of Dyck-1, which they were able to recognize effortlessly.
-
-Our analysis also provides insights on the role of self-attention mechanism in modeling certain behaviors and the influence of positional encoding schemes on the learning and generalization abilities of the model.  
+Perhaps surprisingly, in contrast to LSTMs, Transformers do well only on a subset of regular languages with degrading performance as we make languages more complex according to a well-known measure of complexity (Section 7).  Our results indicate that, in contrast to LSTMs, Transformers achieve limited performance on languages that involve modeling periodicity, modular counting, and even simpler star-free variants of Dyck-1, which they were able to recognize effortlessly. Our analysis also provides insights on the role of self-attention mechanism in modeling certain behaviors and the influence of positional encoding schemes on the learning and generalization abilities of the model.  
 
 
 
@@ -63,7 +59,7 @@ pip install -r requirements.txt
 We provide all the datasets that we mention in the paper which are:
 - `Shuffle-2`
 - `TernaryBoolean`
-- `Counter-3:`  $a^nb^nc^n$
+- `Counter-3:`  $a^nb^nc^n​$
 - `Parity`
 - `(aa)*`
 - `(abab)*`
